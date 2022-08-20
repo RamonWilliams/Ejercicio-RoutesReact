@@ -1,0 +1,19 @@
+.backgroundMovie{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundMovie img{
+    width: 200px;
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+.backgroundMovie img:hover{
+    transform: scale(1.1);
+}
